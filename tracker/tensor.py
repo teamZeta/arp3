@@ -60,25 +60,26 @@ def run_inference_on_image(image):
 def get_closest(conn, images, root=None):
     prvi = 0
     min = 0
-    id_min = 0
+    id_min = 3
     stevec = -1
     for image in images:
-        with tf.Graph().as_default():
-            if prvi == 0:
-                root = run_inference_on_image(image)
-                dist = [[0]]
-                prvi = 1
-            else:
-                prvi += 1
-                predictions = run_inference_on_image(image)
-                dist = cosine_similarity(predictions, root)
-                print(dist)
+        if len(image) > 0:
+            with tf.Graph().as_default():
+                if prvi == 0:
+                    root = run_inference_on_image(image)
+                    dist = [[0]]
+                    prvi = 1
+                else:
+                    prvi += 1
+                    predictions = run_inference_on_image(image)
+                    dist = cosine_similarity(predictions, root)
+                    print(dist)
 
-            if prvi == 2 or min > dist[0][0]:
-                prvi = 2
-                min = dist
-                id_min = stevec
-            stevec += 1
+                if prvi == 2 or min > dist[0][0]:
+                    prvi = 2
+                    min = dist
+                    id_min = stevec
+                stevec += 1
     print("id = " + str(id_min))
     conn.send([id_min])
     conn.close()

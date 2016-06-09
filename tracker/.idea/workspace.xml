@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MedianFlow.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MedianFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MedianFlow.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
@@ -36,8 +36,8 @@
       <file leaf-file-name="wraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+            <state relative-caret-position="1005">
+              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
               <folding>
                 <element signature="e#18#34#0" expanded="true" />
               </folding>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tensor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tensor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="795">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
               <folding>
                 <element signature="e#597#635#0" expanded="true" />
               </folding>
@@ -70,7 +70,7 @@
       <file leaf-file-name="ncc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ncc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="30">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#18#28#0" expanded="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="ORF.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ORF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="3480">
               <caret line="238" column="7" selection-start-line="238" selection-start-column="7" selection-end-line="238" selection-end-column="7" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="MeanShift.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeanShift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state relative-caret-position="720">
               <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -140,7 +140,6 @@
         <option value="$PROJECT_DIR$/tensor/tensor.py" />
         <option value="$PROJECT_DIR$/wraperOP.py" />
         <option value="$PROJECT_DIR$/ncc.py" />
-        <option value="$PROJECT_DIR$/tensor.py" />
         <option value="$PROJECT_DIR$/camShift.py" />
         <option value="$PROJECT_DIR$/MeanShift.py" />
         <option value="$PROJECT_DIR$/flow.py" />
@@ -148,6 +147,7 @@
         <option value="$PROJECT_DIR$/MedianFlow.py" />
         <option value="$PROJECT_DIR$/ORF.py" />
         <option value="$PROJECT_DIR$/wraper.py" />
+        <option value="$PROJECT_DIR$/tensor.py" />
       </list>
     </option>
   </component>
@@ -182,8 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +202,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,12 +452,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11626638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -469,6 +468,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30208334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -599,14 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wraperOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wraperOP.py" />
     <entry file="file://$PROJECT_DIR$/mftracker/mftrack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -665,13 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flow.py" />
     <entry file="file://$PROJECT_DIR$/ORF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2790">
@@ -750,13 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flow.py" />
     <entry file="file://$PROJECT_DIR$/ORF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -827,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3405">
           <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,17 +827,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wraperOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wraperOP.py" />
     <entry file="file://$PROJECT_DIR$/ncc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="30">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#18#28#0" expanded="true" />
@@ -865,19 +838,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#597#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MeanShift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="720">
           <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -885,22 +848,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2205">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/flow.py" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -911,20 +860,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ORF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="3480">
           <caret line="238" column="7" selection-start-line="238" selection-start-column="7" selection-end-line="238" selection-end-column="7" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-          <folding>
-            <element signature="e#18#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,6 +874,26 @@
           <caret line="52" column="111" selection-start-line="52" selection-start-column="111" selection-end-line="52" selection-end-column="111" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding>
+            <element signature="e#597#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
